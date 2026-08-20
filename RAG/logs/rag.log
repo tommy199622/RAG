@@ -1,0 +1,57 @@
+2026-08-06 16:24:45,185 | INFO | Found credentials in shared credentials file: ~/.aws/credentials
+2026-08-06 16:24:58,825 | INFO | Found credentials in shared credentials file: ~/.aws/credentials
+2026-08-06 16:25:53,950 | INFO | Found credentials in shared credentials file: ~/.aws/credentials
+2026-08-06 16:25:54,419 | INFO | Starting RAG API
+2026-08-06 16:26:03,925 | INFO | Use pytorch device_name: cpu
+2026-08-06 16:26:03,926 | INFO | Load pretrained SentenceTransformer: BAAI/bge-m3
+2026-08-06 16:26:09,166 | INFO | Loading FAISS Index
+2026-08-06 16:26:09,183 | INFO | Loading faiss with AVX2 support.
+2026-08-06 16:26:09,354 | INFO | Successfully loaded faiss with AVX2 support.
+2026-08-06 16:26:09,388 | INFO | FAISS Loaded
+2026-08-06 16:26:09,388 | INFO | FAISS Loaded
+2026-08-06 16:26:17,549 | INFO | Found credentials in shared credentials file: ~/.aws/credentials
+2026-08-06 16:26:17,904 | INFO | Starting RAG API
+2026-08-06 16:26:20,266 | INFO | Use pytorch device_name: cpu
+2026-08-06 16:26:20,266 | INFO | Load pretrained SentenceTransformer: BAAI/bge-m3
+2026-08-06 16:26:25,133 | INFO | Loading FAISS Index
+2026-08-06 16:26:25,138 | INFO | Loading faiss with AVX2 support.
+2026-08-06 16:26:25,154 | INFO | Successfully loaded faiss with AVX2 support.
+2026-08-06 16:26:25,161 | INFO | FAISS Loaded
+2026-08-06 16:26:25,161 | INFO | FAISS Loaded
+2026-08-06 16:33:50,129 | INFO | Question: 這份文件主要內容是什麼?
+2026-08-06 16:33:50,425 | INFO | Retriever Time: 0.296s
+2026-08-06 16:33:50,511 | INFO | Using Bedrock Converse API to generate response
+2026-08-06 16:33:53,105 | INFO | LLM Time: 2.605s
+2026-08-06 16:33:53,105 | INFO | Total Time: 2.976s
+2026-08-06 16:38:12,358 | INFO | Shutdown RAG API
+2026-08-06 16:44:50,613 | INFO | Found credentials in shared credentials file: ~/.aws/credentials
+2026-08-06 16:44:50,987 | INFO | Starting RAG API
+2026-08-06 16:44:53,263 | INFO | Use pytorch device_name: cpu
+2026-08-06 16:44:53,265 | INFO | Load pretrained SentenceTransformer: BAAI/bge-m3
+2026-08-06 16:44:58,213 | INFO | Loading FAISS Index
+2026-08-06 16:44:58,215 | INFO | Loading faiss with AVX2 support.
+2026-08-06 16:44:58,234 | INFO | Successfully loaded faiss with AVX2 support.
+2026-08-06 16:44:58,238 | INFO | FAISS Loaded
+2026-08-06 16:44:58,238 | INFO | FAISS Loaded
+2026-08-06 16:45:51,379 | ERROR | 'ChatRequest' object has no attribute 'session_id'
+Traceback (most recent call last):
+  File "D:\AIProject\RAG\app.py", line 126, in chat
+    request.session_id
+  File "C:\Users\Jimmy.Hong\AppData\Local\anaconda3\envs\RAG\lib\site-packages\pydantic\main.py", line 1042, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'ChatRequest' object has no attribute 'session_id'
+2026-08-06 16:46:33,470 | INFO | Shutdown RAG API
+2026-08-06 16:46:40,065 | INFO | Found credentials in shared credentials file: ~/.aws/credentials
+2026-08-06 16:46:40,444 | INFO | Starting RAG API
+2026-08-06 16:46:42,783 | INFO | Use pytorch device_name: cpu
+2026-08-06 16:46:42,783 | INFO | Load pretrained SentenceTransformer: BAAI/bge-m3
+2026-08-06 16:46:48,240 | INFO | Loading FAISS Index
+2026-08-06 16:46:48,242 | INFO | Loading faiss with AVX2 support.
+2026-08-06 16:46:48,274 | INFO | Successfully loaded faiss with AVX2 support.
+2026-08-06 16:46:48,274 | INFO | FAISS Loaded
+2026-08-06 16:46:48,274 | INFO | FAISS Loaded
+2026-08-06 16:46:53,356 | INFO | Question: 這份文件主要內容是什麼?
+2026-08-06 16:46:53,642 | INFO | Retriever Time: 0.285s
+2026-08-06 16:46:53,714 | INFO | Using Bedrock Converse API to generate response
+2026-08-06 16:46:55,875 | INFO | LLM Time: 2.172s
+2026-08-06 16:46:55,876 | INFO | Total Time: 2.519s
